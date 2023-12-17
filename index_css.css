@@ -74,9 +74,6 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-h2[id], p[id] {
-    scroll-margin-top: 50px; /* Ajustez la valeur en fonction de la hauteur de votre barre de recherche */
-}
 .topnav {
     display: flex;
     justify-content: space-around;
@@ -140,7 +137,7 @@ h1 {
 
 .liste{
     text-align:center;
-    text-style-position:inside;
+    list-style-position:inside;
 }
 
 
