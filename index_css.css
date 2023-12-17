@@ -158,7 +158,13 @@ ul {
      text-align:center;
 }
 
-
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #45a1ff;
+  color: #fff;
+}
 
   /* @media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) { */
 @media screen and (max-width: 65em){
