@@ -25,6 +25,20 @@ body{
     text-shadow: 1px 1px 2px rgb(250, 2, 2),0 0 3px rgb(4, 2, 109);
     /*decale de x,  y  floue de x pixel de couleur rouge /repÃ©tition argument prÃ©cÃ©dent */
 }
+div{
+    margin-bottom: 8em;
+}
+.question-main{
+    background-color:lightgray;
+    margin-right:10em;
+    margin-left:10em;
+    border-radius: 1em;
+    opacity: 0.9;
+    border: solid;
+    border-size: 2px;
+    border-color: gray;
+}
+
 h2 {
     margin: 3% 20%;
     background-color: rgb(255, 255, 255);
@@ -32,12 +46,12 @@ h2 {
     padding: 3%;
     border: solid;
     border-size: 2px;
-    border-color: rgb(255, 0, 0);
+    border-color: gray;
     border-radius: 3vh;
 }
 
 p {
-    margin: 5% 15% ;
+    margin: 2% 15% ;
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
     border-radius: 3vh;
