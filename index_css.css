@@ -158,9 +158,8 @@ ul {
      text-align:center;
 }
 .imageFooter{
-    margin-bottom: %;
+    margin-bottom: 2%;
     max-width : 50em;
-    /*max-width : 600px;*/
     height : 1em;
     display: block;
     margin-left: 5%;
@@ -172,9 +171,8 @@ footer {
     border-radius: 0vh;
     padding: 0%;
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   padding: 5px;
-  background-color: #45a1ff;
   color: #fff;
 }
 
