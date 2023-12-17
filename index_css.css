@@ -11,10 +11,11 @@ body{
     position: absolute;
     background-color: #000000;
 }
-.centre{
+.centre {
     display: flex;
+    align-items: center;
     text-align: center;
-    justify-content: center;
+    margin: 0 auto;
 }
 /* taille de la police qui ce gÃ¨re*/
 /*https://www.ionos.fr/digitalguide/sites-internet/web-design/police-de-caracteres-adaptatives-et-commandes-css/*/
