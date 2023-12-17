@@ -27,11 +27,11 @@ body{
     /*decale de x,  y  floue de x pixel de couleur rouge /repÃ©tition argument prÃ©cÃ©dent */
 }
 h2 {
+    margin-left: 10%;
+    margin-right: 50%;
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
     padding: 1%;
-    margin-left: 10%;
-    margin-right: 50%;
     border: solid;
     border-size: 2px;
     border-color: rgb(255, 0, 0);
@@ -39,12 +39,12 @@ h2 {
 }
 
 p {
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
     border-radius: 3vh;
     padding: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .imageBackHome {
