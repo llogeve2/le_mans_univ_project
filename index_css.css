@@ -172,7 +172,7 @@ footer {
     border-radius: 3vh;
     padding: 0%;
       display: flex;
-       text-align: start;
+       text-align: end;
       /*justify-content: center;*/
       background-color: #45a1ff;
       color: rgb(0, 0, 0); 
