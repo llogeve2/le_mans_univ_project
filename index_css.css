@@ -185,9 +185,3 @@ h1 {
         font-size: 140%;
     }
 }
-.centre {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-}
