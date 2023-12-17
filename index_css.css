@@ -24,7 +24,7 @@ body{
     /*decale de x,  y  floue de x pixel de couleur rouge /repÃ©tition argument prÃ©cÃ©dent */
 }
 h2 {
-    margin: 3% 30%;
+    margin: 3% 20%;
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
     padding: 3%;
@@ -35,7 +35,7 @@ h2 {
 }
 
 p {
-    margin: 5% 20% ;
+    margin: 5% 15% ;
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
     border-radius: 3vh;
