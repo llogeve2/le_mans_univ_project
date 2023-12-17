@@ -33,9 +33,9 @@ body{
     margin-left: 10%;
     margin-right: 50%;
     margin-bottom: 3%;
+    border-radius: 3vh;
     border: 2% solid;
     border-color:rgb(255, 0, 0);
-    border-radius: 3vh;
 }
 .backtext{
     background-color: rgb(255,255,255);
