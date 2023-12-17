@@ -136,11 +136,11 @@ h1 {
 
 
 .container {
-    text-align: center; /* Centrer horizontalement */
-    line-height: 50px; /* Ajustez la hauteur en fonction de la taille de votre liste */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 li {
-    display: inline-block; /* Affichez les éléments de la liste en ligne */
     margin-right: 10px; /* Espace entre les éléments de la liste, ajustez selon vos besoins */
 }
 
