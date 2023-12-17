@@ -140,8 +140,8 @@ h1 {
     align-items: center;
     justify-content: center;
 }
-li {
-    margin-right: 10px; /* Espace entre les éléments de la liste, ajustez selon vos besoins */
+ul {
+     text-align:center;
 }
 
 
