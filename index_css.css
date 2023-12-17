@@ -159,6 +159,11 @@ ul {
 }
 
 footer {
+    margin: 0% ;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    border-radius: 0vh;
+    padding: 0%;
   display: flex;
   justify-content: center;
   padding: 5px;
