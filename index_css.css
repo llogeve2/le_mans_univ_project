@@ -11,10 +11,6 @@ body{
     position: absolute;
     background-color: #000000;
 }
-.centre {
-    text-align: center; /* Centre le texte à l'intérieur du conteneur */
-    margin: 0 auto; /* Centre le conteneur horizontalement en utilisant une marge automatique */
-}
 /* taille de la police qui ce gÃ¨re*/
 /*https://www.ionos.fr/digitalguide/sites-internet/web-design/police-de-caracteres-adaptatives-et-commandes-css/*/
 .backtextTitre{
@@ -188,4 +184,8 @@ h1 {
     .topnav a{
         font-size: 140%;
     }
+}
+.centre {
+    text-align: center; /* Centre le texte à l'intérieur du conteneur */
+    margin: 0 auto; /* Centre le conteneur horizontalement en utilisant une marge automatique */
 }
