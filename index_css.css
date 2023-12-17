@@ -30,7 +30,8 @@ h2 {
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
     padding: 1%;
-    margin: 0 10% 3%; /* Ajusté ici */
+    margin-left: 10%;
+    margin-right: 50%;
     border: solid;
     border-size: 2px;
     border-color: rgb(255, 0, 0);
@@ -42,7 +43,8 @@ p {
     opacity: 0.8;
     border-radius: 3vh;
     padding: 1%;
-    margin: 0 10% 2%; /* Ajusté ici */
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .imageBackHome {
