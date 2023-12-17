@@ -76,16 +76,6 @@ body{
     margin-right: auto;
 }
   
-
-
-.topnav {
-    display: table;
-    /*position: -webkit -sticky;*/
-    position: fixed;
-    top:0;
-    background-color: black;
-    width: 100%;
-}
 .topnav {
     display: flex;
     justify-content: space-around;
@@ -93,6 +83,7 @@ body{
     background-color: black;
     padding: 10px;
     position: fixed;
+    border-radius: 6vh;
     width: 100%;
     top: 0;
 }
