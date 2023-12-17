@@ -18,7 +18,7 @@ body{
     color: #000000;
     opacity: 0.8;
     border-radius: 3vh;
-    padding: 1%;
+    padding: 3%;
     margin-left: 28%;
     margin-right: 28%;
     margin-top: 5%;
@@ -27,11 +27,10 @@ body{
     /*decale de x,  y  floue de x pixel de couleur rouge /repÃ©tition argument prÃ©cÃ©dent */
 }
 h2 {
-    margin-left: 10%;
-    margin-right: 50%;
+    margin: 0 10% 3%; /* Ajusté ici */
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
-    padding: 1%;
+    padding: 3%;
     border: solid;
     border-size: 2px;
     border-color: rgb(255, 0, 0);
@@ -39,8 +38,7 @@ h2 {
 }
 
 p {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 10% 3%; /* Ajusté ici */
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
     border-radius: 3vh;
