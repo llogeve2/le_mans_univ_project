@@ -28,7 +28,7 @@ body{
 }
 h2{
     display: block;
-    text-align:center;
+    align-items: center;
     background-color: rgb(255,255,255);
     opacity: 0.8;
     padding: 1%;
