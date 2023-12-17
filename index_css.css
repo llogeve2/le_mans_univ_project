@@ -19,7 +19,7 @@ body{
     opacity: 0.8;
     border-radius: 3vh;
     padding: 3%;
-    margin: 5% 25% 5% 25% ;
+    margin: 5% 25%;
     text-shadow: 1px 1px 2px rgb(250, 2, 2),0 0 3px rgb(4, 2, 109);
     /*decale de x,  y  floue de x pixel de couleur rouge /repÃ©tition argument prÃ©cÃ©dent */
 }
