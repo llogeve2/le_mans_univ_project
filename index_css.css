@@ -86,25 +86,51 @@ body{
     background-color: black;
     width: 100%;
 }
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
 .topnav a {
-        /*padding: 10%;*/
-        width: 33.3%;
-        color: white;
-        padding: 0.5rem 2rem;
-        text-decoration: none;/* enlÃ©ve le soulignement des lien*/
-        font-size: 140%;
-        text-align: center;
-        display: table-cell;
-}
-/* la casse que l'on survole m'est le background en blanc et la police en noir*/
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-/*  page ou on est reprÃ©sent la casse en verte */
-.topnav a.active {
-    background-color: #414345;
     color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.topnav a:hover {
+    background-color: #333;
+}
+
+.topnav .active {
+    background-color: #414345;
+}
+h1 {
+    text-align: center;
+    margin-top: 10vw; /* Ajustez la valeur selon vos préférences */
+}
+
+/* Ajoutez des règles media queries pour rendre la barre de navigation responsive */
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .topnav a {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+
 }
 .fondpact{
     animation: fond 0.5s linear ;
