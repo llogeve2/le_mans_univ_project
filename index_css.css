@@ -172,6 +172,7 @@ footer {
     border-radius: 3vh;
     padding: 0%;
       display: flex;
+       text-align: start;
       /*justify-content: center;*/
       background-color: #45a1ff;
       color: #fff;
