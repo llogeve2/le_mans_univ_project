@@ -159,10 +159,12 @@ ul {
 }
 .imageFooter{
     margin-bottom: 2%;
-    max-width : 50em;
-    height : 1em;
+    max-width : 10em;
+    /*max-width : 600px;*/
+    height : auto;
     display: block;
-    margin-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer {
     margin: 0% ;
