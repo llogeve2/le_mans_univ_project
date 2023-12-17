@@ -160,14 +160,13 @@ ul {
 .imageFooter{
     margin-bottom: 2%;
     max-width : 10em;
-    /*max-width : 600px;*/
     height : auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 footer {
-    margin: 0% ;
+    margin: 20% ;
     background-color: rgb(255, 255, 255);
     opacity: 1;
     border-radius: 0vh;
