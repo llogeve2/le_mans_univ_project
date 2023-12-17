@@ -175,7 +175,7 @@ footer {
        text-align: start;
       /*justify-content: center;*/
       background-color: #45a1ff;
-      color: #fff;
+      color: rgb(0, 0, 0); 
 }
 
   /* @media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) { */
