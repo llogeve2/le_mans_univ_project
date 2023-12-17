@@ -45,7 +45,6 @@ p {
 }
 
 .imageBackHome {
-    scroll-padding-top: 50px;
     background-image: url('https://cdn.futura-sciences.com/cdn-cgi/image/width=1920,quality=60,format=auto/sources/images/realite-virtuelle-VR.jpg');
     background-position: center center;
     background-repeat: no-repeat;  /*https://www.futura-sciences.com/tech/definitions/technologie-realite-virtuelle-598/*/
@@ -75,7 +74,9 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-  
+h2[id], p[id] {
+    scroll-margin-top: 50px; /* Ajustez la valeur en fonction de la hauteur de votre barre de recherche */
+}
 .topnav {
     display: flex;
     justify-content: space-around;
@@ -85,7 +86,6 @@ p {
     position: fixed;
     width: 100%;
     top: 0;
-    scroll-margin-top: 600px; /* Ajustez la valeur en fonction de la hauteur de votre barre de recherche */
 }
 
 .topnav a {
