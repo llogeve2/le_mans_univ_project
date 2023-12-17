@@ -157,7 +157,14 @@ h1 {
 ul {
      text-align:center;
 }
-
+.imageFooter{
+    margin-bottom: %;
+    max-width : 50em;
+    /*max-width : 600px;*/
+    height : 1em;
+    display: block;
+    margin-left: 5%;
+}
 footer {
     margin: 0% ;
     background-color: rgb(255, 255, 255);
