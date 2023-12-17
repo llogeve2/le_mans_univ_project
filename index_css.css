@@ -11,6 +11,11 @@ body{
     position: absolute;
     background-color: #000000;
 }
+.centre{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 /* taille de la police qui ce gÃ¨re*/
 /*https://www.ionos.fr/digitalguide/sites-internet/web-design/police-de-caracteres-adaptatives-et-commandes-css/*/
 .backtextTitre{
@@ -27,8 +32,6 @@ body{
     /*decale de x,  y  floue de x pixel de couleur rouge /repÃ©tition argument prÃ©cÃ©dent */
 }
 h2{
-    display: block;
-    align-items: center;
     background-color: rgb(255,255,255);
     opacity: 0.8;
     padding: 1%;
