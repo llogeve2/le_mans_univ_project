@@ -12,10 +12,8 @@ body{
     background-color: #000000;
 }
 .centre {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
+    text-align: center; /* Centre le texte à l'intérieur du conteneur */
+    margin: 0 auto; /* Centre le conteneur horizontalement en utilisant une marge automatique */
 }
 /* taille de la police qui ce gÃ¨re*/
 /*https://www.ionos.fr/digitalguide/sites-internet/web-design/police-de-caracteres-adaptatives-et-commandes-css/*/
