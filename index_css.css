@@ -27,7 +27,8 @@ body{
     /*decale de x,  y  floue de x pixel de couleur rouge /repÃ©tition argument prÃ©cÃ©dent */
 }
 h2{
-    text-align: center;
+    display: block;
+    text-align:center;
     background-color: rgb(255,255,255);
     opacity: 0.8;
     padding: 1%;
