@@ -47,6 +47,7 @@ body{
 }
 .imageBackHome {
     background-image: url('https://cdn.futura-sciences.com/cdn-cgi/image/width=1920,quality=60,format=auto/sources/images/realite-virtuelle-VR.jpg');
+    background-position: center center;
     background-repeat: no-repeat;  /*https://www.futura-sciences.com/tech/definitions/technologie-realite-virtuelle-598/*/
     background-attachment: fixed;  
     background-size: cover;
@@ -60,6 +61,7 @@ body{
 }
 .imageBackApple {
     background-image: url(./appleimage1.webp);
+    background-position: center center;
     background-repeat: no-repeat;   /*image des puces du apple vision pro https://i0.wp.com/www.appletips.nl/wp-content/uploads/2023/06/Vision-Pro-m2-en-r1-chip.jpg?ssl=1*/
     background-attachment: fixed;  
     background-size: cover;
