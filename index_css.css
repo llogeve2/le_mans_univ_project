@@ -87,6 +87,7 @@ div{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 3vh;
 }
 .topnav {
     display: flex;
