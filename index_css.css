@@ -39,7 +39,7 @@ div{
     border-color: gray;
 }
 
-h2 {
+.question{
     margin: 3% 20%;
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
@@ -50,7 +50,7 @@ h2 {
     border-radius: 3vh;
 }
 
-p {
+.reponse{
     margin: 2% 15% ;
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
@@ -250,13 +250,13 @@ footer {
         margin-top: 13%;
         font-size: 380%;
     }
-    h2{
+    .question{
         font-size: 340%;
         margin-left: 20%;
         margin-right: 20%;
         margin-bottom: 5%;
     }
-    p{
+    .reponse{
         font-size: 300%;
         margin-left: 5%;
         margin-right: 5%;
