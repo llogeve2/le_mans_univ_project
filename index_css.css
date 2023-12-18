@@ -121,24 +121,22 @@ h1 {
     text-align: center;
     margin-top: 10vw; /* Ajustez la valeur selon vos préférences */
 }
-.navbar {
+.bar {
     overflow: hidden;
     width: 10%;
     position: fixed;
     top: 0;
 }
 
-.navbar a {
+.bar a {
     float: left;
-    font-size: 16px;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
-.dropbtn {
+.menu {
     font-size: 200%;
     width:100%;
     border: none;
@@ -147,34 +145,32 @@ h1 {
     background-color: black;
 }
 
-.dropdown:hover {
+.defille:hover {
     background-color: red;
 }
 
-.dropdown-content {/*initialise contenue cacher*/
+.etdedans {/*initialise contenue cacher*/
     display: none;
     background-color: #f9f9f9;
-    min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
-.dropdown-content a {
+.etdedans a {
     float: none;
     color: rgb(192, 4, 4);
-    padding: 12px 16px;
+    padding:10% 2%;
     display: block;
     text-align: center;
 }
 
-.dropdown-content a:hover {
+.etdedans a:hover {
     background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {/*affiche contenue*/
+.defille:hover .etdedans {/*affiche contenue*/
     display: block;
 }
-
 /* Ajoutez des règles media queries pour rendre la barre de navigation responsive */
 
 @media screen and (max-width: 600px) {
