@@ -172,11 +172,11 @@ footer {
     background-color: rgb(255, 255, 255);
     opacity: 1;
     border-radius: 3vh;
-    padding: 0%;
+    padding: center center;
       display: flex;
        text-align: center;
     font-weight: bold;
-    margin: center center;
+    margin: center;
       justify-content: center;
       color: rgb(0, 0, 0); 
 }
