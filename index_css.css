@@ -66,7 +66,8 @@ p {
     background-size: cover;
 }
 .backMeta {
-    background-color: #14687d;    /*https://about.fb.com/fr/wp-content/uploads/sites/12/2023/06/01_Hero-View.jpg*/
+    background-color: #000000;
+    /*background-color: #14687d;    https://about.fb.com/fr/wp-content/uploads/sites/12/2023/06/01_Hero-View.jpg*/
     background-image: url('https://images.frandroid.com/wp-content/uploads/2022/07/unbelievably-fun-fitness-is-ready-meta-quest-0-15-screenshot.jpg');
     background-repeat: no-repeat;   /* vue eclate https://fs.npstatic.com/userfiles/1799474/file/Meta-Quest-3_Exploded-View-w782.jpeg*/
     background-attachment: fixed;  
