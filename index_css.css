@@ -172,7 +172,8 @@ footer {
     background-color: rgb(255, 255, 255);
     opacity: 1;
     border-radius: 3vh;
-    padding: center;
+    padding-top: 40%;
+    padding-bottom: auto;
     display: flex;
     text-align: center;
     font-weight: bold;
