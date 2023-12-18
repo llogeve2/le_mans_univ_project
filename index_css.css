@@ -213,28 +213,23 @@ ul {
      text-align:center;
 }
 .imageFooter{
-    margin-top: 2%;
-    margin-bottom: 2%;
     max-width : 10em;
     height : auto;
     display: block;
-    margin-left: 0;
+    border-radius: 3vh;
+    margin-left: auto;
     margin-right: auto;
-    border-radius: 3vh;
 }
+
 footer {
-    margin: 2% ;
-    background-color: rgb(255, 255, 255);
-    opacity: 1;
-    border-radius: 3vh;
-    padding-top: center;
-    padding-bottom: auto;
-    display: flex;
+    color: #000000;
+    padding: 20px;
     text-align: center;
     font-weight: bold;
-    margin: center;
-    justify-content: center;
-    color: rgb(0, 0, 0); 
+  }
+.txtFooter{
+    margin: 0% 0% ;
+    padding: 0%;
 }
 
   /* @media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) { */
