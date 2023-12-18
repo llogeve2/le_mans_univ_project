@@ -34,7 +34,6 @@ div{
     border-radius: 1em;
     opacity: 0.9;
     border: solid;
-    border-size: 2px;     /* W3 dit que border-size existe pas (y'en a en 27 et 37) */
     border-color: gray;
 }
 
@@ -44,7 +43,6 @@ h2{
     opacity: 0.8;
     padding: 3%;
     border: solid;
-    border-size: 2px;
     border-color: gray;
     border-radius: 3vh;
 }
