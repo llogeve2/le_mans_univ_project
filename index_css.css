@@ -174,8 +174,8 @@ footer {
     border-radius: 3vh;
     padding: 0%;
       display: flex;
-       text-align: center center;
-    margin: center;
+       text-align: center;
+    margin: center center;
       justify-content: center;
       color: rgb(0, 0, 0); 
 }
