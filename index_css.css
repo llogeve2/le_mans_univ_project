@@ -56,6 +56,7 @@ p{
 }
 
 .imageBackHome {
+    background-color: #000000;  /* En cas de non chargement de l'image le background est noir */
     background-image: url('https://cdn.futura-sciences.com/cdn-cgi/image/width=1920,quality=60,format=auto/sources/images/realite-virtuelle-VR.jpg');
     background-position: center center;
     background-repeat: no-repeat;  /*https://www.futura-sciences.com/tech/definitions/technologie-realite-virtuelle-598/*/
@@ -64,16 +65,17 @@ p{
 }
 .backMeta {
     background-color: #000000;
-    /*background-color: #14687d;    https://about.fb.com/fr/wp-content/uploads/sites/12/2023/06/01_Hero-View.jpg*/
     background-image: url('https://images.frandroid.com/wp-content/uploads/2022/07/unbelievably-fun-fitness-is-ready-meta-quest-0-15-screenshot.jpg');
-    background-repeat: no-repeat;   /* vue eclate https://fs.npstatic.com/userfiles/1799474/file/Meta-Quest-3_Exploded-View-w782.jpeg*/
+    background-position: center center;
+    background-repeat: no-repeat; 
     background-attachment: fixed;  
     background-size: cover;
 }
 .imageBackApple {
+    background-color: #000000;
     background-image: url(./appleimage1.webp);
     background-position: center center;
-    background-repeat: no-repeat;   /*image des puces du apple vision pro https://i0.wp.com/www.appletips.nl/wp-content/uploads/2023/06/Vision-Pro-m2-en-r1-chip.jpg?ssl=1*/
+    background-repeat: no-repeat; 
     background-attachment: fixed;  
     background-size: cover;
 }
