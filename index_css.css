@@ -168,17 +168,17 @@ ul {
     border-radius: 3vh;
 }
 footer {
-     margin: 5% ;
+    margin: 2% ;
     background-color: rgb(255, 255, 255);
     opacity: 1;
     border-radius: 3vh;
-    padding: center center;
-      display: flex;
-       text-align: center;
+    padding: center;
+    display: flex;
+    text-align: center;
     font-weight: bold;
     margin: center;
-      justify-content: center;
-      color: rgb(0, 0, 0); 
+    justify-content: center;
+    color: rgb(0, 0, 0); 
 }
 
   /* @media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) { */
