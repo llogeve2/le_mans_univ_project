@@ -13,7 +13,6 @@ body{
     padding-top: 50px; 
 }
 /* taille de la police qui ce gÃ¨re*/
-/*https://www.ionos.fr/digitalguide/sites-internet/web-design/police-de-caracteres-adaptatives-et-commandes-css/*/
 .backtextTitre{
     background-color: rgb(83, 101, 112);
     color: #000000;
@@ -57,15 +56,15 @@ p{
 
 .imageBackHome {
     background-color: #000000;  /* En cas de non chargement de l'image le background est noir */
-    background-image: url('https://cdn.futura-sciences.com/cdn-cgi/image/width=1920,quality=60,format=auto/sources/images/realite-virtuelle-VR.jpg');
+    background-image: url('./realite-virtuelle-VR.avif');
     background-position: center center;
-    background-repeat: no-repeat;  /*https://www.futura-sciences.com/tech/definitions/technologie-realite-virtuelle-598/*/
+    background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
 }
 .backMeta {
     background-color: #000000;
-    background-image: url('https://images.frandroid.com/wp-content/uploads/2022/07/unbelievably-fun-fitness-is-ready-meta-quest-0-15-screenshot.jpg');
+    background-image: url('./unbelievably-fun-fitness-is-ready-meta-quest-0-15-screenshot.jpg');
     background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed;  
@@ -82,7 +81,6 @@ p{
 .imageInArcticle{
     margin-bottom: 2%;
     max-width : 50em;
-    /*max-width : 600px;*/
     height : auto;
     display: block;
     margin-left: auto;
@@ -97,16 +95,14 @@ p{
     padding: 0%;
     position: fixed;
     width: 100%;
-    margin-left: 10%;
-    margin-right: 0%;
     top: 0;
 }
 
 .topnav a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
-    padding: 10px 20px;
+    font-size: 150%;
+    padding: 2% 4%;
     border-radius: 6vh;
     transition: background-color 0.3s;
 }
@@ -122,19 +118,22 @@ h1 {
     text-align: center;
     margin-top: 10vw;
 }
-.bar {
+.bar {    
     overflow: hidden;
-    width: 10%;
-    position: fixed;
-    top: 0;
+    top:3em;
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
+    position: flex;
 }
 
 .bar a {
     float: left;
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     text-decoration: none;
+    border-radius: 3vh;
 }
 
 .menu {
@@ -142,72 +141,39 @@ h1 {
     width:100%;
     border: none;
     outline: none;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: black;
+    border-radius: 3vh;
+
 }
 
 .defille:hover {
-    background-color: red;
+    background-color: inherit;
 }
 
 .etdedans {/*initialise contenue cacher*/
     display: none;
-    background-color: #f9f9f9;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    background-color: #000000;
+    border-radius: 3vh;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+    z-index: 100;
 }
 
 .etdedans a {
     float: none;
-    color: rgb(192, 4, 4);
-    padding:10% 2%;
+    color:rgb(255, 255, 255);
     display: block;
     text-align: center;
 }
 
 .etdedans a:hover {
-    background-color: #ddd;
+    background-color: #68666696;
 }
 
 .defille:hover .etdedans {/*affiche contenue*/
     display: block;
 }
 
-@media screen and (max-width: 600px) {
-    .topnav {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .topnav a {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 5px;
-    }
-
-}
-.fondpact{
-    animation: fond 0.5s linear ;
-}
-
-@keyframes fond {
-    from {
-      opacity: 0.4;
-    }
-    to{
-        opacity: 1;
-    }
-  }
-
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-ul {
-     text-align:center;
-}
 .imageFooter{
     max-width : 10em;
     height : auto;
@@ -228,17 +194,20 @@ footer {
     padding: 0%;
 }
 
-  /* @media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) { */
-@media screen and (max-width: 65em){
-    .backtextTitre{
-        margin-top: 10%;
-    }
+
+.fondpact{
+    animation: fond 0.5s linear ;
 }
-@media screen and (max-width: 52em){
-    .backtextTitre{
-        margin-top: 15%;
+
+@keyframes fond {
+    from {
+      opacity: 0.5;
     }
-}
+    to{
+        opacity: 1;
+    }
+  }
+
 @media screen and (max-width: 43em){
     .backtextTitre{
         margin-top: 23%;
@@ -268,9 +237,25 @@ footer {
         font-size: 280%;
     }
     .bar a{
-        font-size: 280%;
+        font-size: 260%;
     }
     .menu{
-        font-size: 280%;
+        font-size: 260%;
+    }
+    .bar:hover{
+        width:40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .topnav a {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 5px;
     }
 }
