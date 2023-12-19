@@ -267,4 +267,10 @@ footer {
     .topnav a{
         font-size: 280%;
     }
+    .bar a{
+        font-size: 280%;
+    }
+    .menu{
+        font-size: 280%;
+    }
 }
